@@ -1,0 +1,31 @@
+{
+    "name": "HunterUrls",
+    "description": "url收集小工具",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='",
+    "icons":{
+        "128":"icons/custom/128x128.png",
+        "48":"icons/custom/48x48.png",
+        "32":"icons/custom/32x32.png",
+        "16":"icons/custom/16x16.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": [
+            "content-script.js"
+          ],
+          "run_at": "document_end",
+      "all_frames": true
+        }
+      ],
+    "browser_action": {
+      "default_popup": "panel.html",
+      "default_icon": "icons/custom/32x32.png"
+    },
+    
+    "permissions": [
+        "activeTab"
+      ]
+  }
