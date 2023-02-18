@@ -10,8 +10,11 @@ HunterUrls是一个前端url采集工具，目的是为了在测试网站时一�
 - 支持mysql/csv存储形式
 - 支持url正则黑名单过滤
 - 支持自定义动态生成url正则表达式，并实现url去重最大化
-- 新增在F12 console窗口输出当前获取的url列表，这样就不需要依赖flask服务端进行url采集，直接使用浏览器查看url
+- 出于快速部署的考虑，新增在F12 console窗口输出当前获取的url列表，这样就不需要依赖flask服务端进行url采集，直接使用浏览器查看url
 
+### 操作场景预览
+
+![image](https://user-images.githubusercontent.com/35555262/219868068-e5197268-62b3-48cb-b9a7-8de5109407d4.png)
 
 
 ## 2 安装步骤
