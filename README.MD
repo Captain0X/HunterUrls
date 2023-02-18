@@ -1,4 +1,5 @@
-# Hunter_all_urls
+# HunterUrls
+
 >介绍:
 HunterUrls是一个前端url采集工具，目的是为了在测试网站时一键收集前端渲染后的url，核心意图与FindSomething插件差不多，但采集方式不同。脚本的运行逻辑也比较浅显。谷歌插件启动作为客户端进行数据采集，flask接口作为服务端进行数据存储。目前只支持mysql和csv存储形式。如有更好的建议，请联系VX:Captian0XX，希望能收到您宝贵的建议。
                                                     Captain0X 
